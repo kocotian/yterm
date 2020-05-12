@@ -25,7 +25,7 @@ elif [ $1 == '-wt' ]
 then
 	echo "Playing from: https://alphayt.pl/yterm/watch?v=$2&q=l"
 	mplayer -really-quiet -hardframedrop -vo caca "https://alphayt.pl/yterm/watch?v=$2&q=l"
-elif [ $1 == '-wtq' ]
+elif [ $1 == '-wqt' ]
 then
 	if [ $2 == 'l' ]
 	then
@@ -58,7 +58,7 @@ elif [ $1 == '-st' ]
 then
 	echo "Playing from: https://alphayt.pl/yterm/search?s=${2//\ /%20}&q=l"
 	mplayer -really-quiet -hardframedrop -vo caca "https://alphayt.pl/yterm/search?s=${2//\ /%20}&q=l"
-elif [ $1 == '-stq' ]
+elif [ $1 == '-sqt' ]
 then
 	if [ $2 == 'l' ]
 	then
@@ -78,6 +78,7 @@ else
 	-sq <quality> <phrase>  Watch the video searched by phrase with selected quality
 
 	Add 't' to the option to watch video in terminal, for example:
-	-st <phrase>            Watch the video by phrase in terminal"
+	-st <phrase>            Watch the video by phrase in terminal
+	-wqt <quality> <phrase> Watch by id with selected quality in terminal"
 
 fi
