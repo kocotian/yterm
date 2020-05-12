@@ -33,3 +33,4 @@ yterm are using mplayer to work properly. If you don't have mplayer install it:
 
 	Add 't' to the option to watch video in terminal, for example:
 	-st <phrase>            Watch the video by phrase in terminal
+	-wqt <quality> <phrase> Watch by id with selected quality in terminal
