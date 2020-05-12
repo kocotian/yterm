@@ -1,8 +1,14 @@
 # yterm
-Terminal Youtube Client by Kocorian
+Terminal Youtube Client by Kocotian
+
+# Installation
+Go to directory with yterm files and write:
+```bash
+:~# make install
+```
 
 # Dependencies
-yterm are using mplayer to work properly. If you don't have mplayer install it
+yterm are using mplayer to work properly. If you don't have mplayer install it:
 
 ## Ubuntu:
 ```bash
