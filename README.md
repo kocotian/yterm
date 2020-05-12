@@ -6,15 +6,15 @@ yterm are using mplayer to work properly. If you don't have mplayer install it
 
 ## Ubuntu:
 ```bash
-apt install mplayer
+:~# apt install mplayer
 ```
 
 ## Debian:
 ```bash
-apt-get install mplayer
+:~# apt-get install mplayer
 ```
 
 ## Arch:
 ```bash
-pacman -S mplayer
+:~# pacman -S mplayer
 ```
